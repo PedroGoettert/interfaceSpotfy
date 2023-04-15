@@ -25,7 +25,7 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4">
-            <a href="#" className="bg-white/5 group flex  hover:bg-white/10items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
+            <a href="#" className="bg-white/5 group flex items-center hover:bg-white/10items-center gap-4 rounded overflow-hidden hover:bg-white/20 transition-colors">
               <Image src='/album.jpg' width={104} height={104} alt='Foto do Album' />
               <strong>Poesia Acustica</strong>
               <button className="w-12 h-12 flex items-center justify-center pl-0.5 rounded-full bg-green-400 ml-auto mr-4 invisible group-hover:visible">
