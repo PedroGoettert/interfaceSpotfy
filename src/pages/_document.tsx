@@ -8,7 +8,9 @@ export const metaData = {
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <link rel="shortcut icon" href="/favicon.webp" type="image/x-icon" />
+      </Head>
       <body className='bg-zinc-800 text-zinc-50'>
         <Main />
         <NextScript />
